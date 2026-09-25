@@ -1,0 +1,11 @@
+{
+    "strategy": "The robot will navigate toward the goal while avoiding obstacles by moving forward when clear and adjusting direction to avoid blocked paths.",
+    "decisions": [
+        "If the path ahead is clear, then FORWARD",
+        "If an obstacle is detected on the LEFT, then RIGHT",
+        "If an obstacle is detected on the RIGHT, then LEFT",
+        "If the goal is reached, then STOP",
+        "If no path is available, then STOP"
+    ],
+    "stop_point": "When the goal is reached or when no path is available"
+}
